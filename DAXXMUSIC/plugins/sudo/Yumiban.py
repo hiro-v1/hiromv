@@ -14,14 +14,14 @@ from DAXXMUSIC.utils.daxx_ban import admin_filter
 Yumikoo_text = [
 "hey please don't disturb me.",
 "who are you",    
-"aap kon ho",
-"aap mere owner to nhi lgte ",
-"hey tum mera name kyu le rhe ho meko sone do",
-"ha bolo kya kaam hai ",
-"dekho abhi mai busy hu ",
-"hey i am busy",
-"aapko smj nhi aata kya ",
-"leave me alone",
+"open",
+"opmin ",
+"ubot",
+"ready ",
+"sini ",
+"call",
+"vcs ",
+"hiro jelek",
 "dude what happend",    
 ]
 
@@ -30,7 +30,7 @@ strict_txt = [
 "are you serious i am not restrict to my friends",
 "fuck you bsdk k mai apne dosto ko kyu kru",
 "hey stupid admin ", 
-"ha ye phele krlo maar lo ek dusre ki gwaand",  
+"kontol",  
 "i can't hi is my closest friend",
 "i love him please don't restict this user try to usertand "
 ]
