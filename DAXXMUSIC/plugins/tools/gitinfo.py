@@ -7,7 +7,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/hiroMV1_bot?startgroup=true"),
     ],
 ]
 
@@ -15,8 +15,8 @@ EVAA = [
 @app.on_message(filters.command("blackpink"))
 async def blackpink(_, message):
     text = message.text[len("/blackpink") :]
-    bp(f"{text}").save(f"blackpink_{message.from_user.id}.png", caption=f"❖ ʙʟᴀᴄᴋᴘɪɴɢ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐", reply_markup=InlineKeyboardMarkup(EVAA),)
-    await message.reply_photo(f"blackpink_{message.from_user.id}.png", caption=f"❖ ʙʟᴀᴄᴋᴘɪɴɢ ʙʏ ➥ ๛ɴ ʏ ᴋ ᴀ ᴀ ࿐", reply_markup=InlineKeyboardMarkup(EVAA),)
+    bp(f"{text}").save(f"blackpink_{message.from_user.id}.png", caption=f"❖ ʙʟᴀᴄᴋᴘɪɴɢ ʙʏ ➥ @hiro_v1 ࿐", reply_markup=InlineKeyboardMarkup(EVAA),)
+    await message.reply_photo(f"blackpink_{message.from_user.id}.png", caption=f"❖ ʙʟᴀᴄᴋᴘɪɴɢ ʙʏ ➥ @hiro_v1 ࿐", reply_markup=InlineKeyboardMarkup(EVAA),)
     os.remove(f"blackpink_{message.from_user.id}.png")
 
 
@@ -25,7 +25,7 @@ async def blackpink(_, message):
 @app.on_message(filters.command(["github", "git"]))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("❖ ➥ `/git tinaarobot`")
+        await message.reply_text("❖ ➥ `/git hiro-v1`")
         return
 
     username = message.text.split(None, 1)[1]
@@ -64,7 +64,7 @@ async def github(_, message):
 ● ғᴏʟʟᴏᴡᴇʀs ➥ {followers}
 ● ғᴏʟʟᴏᴡɪɴɢ ➥ {following}
 
-❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [๛ɴ ʏ ᴋ ᴀ ᴀ࿐](https://t.me/nykaaxbot)"""
+❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [hiro x mogen࿐](https://t.me/hiro_v1)"""
 
             except Exception as e:
                 print(str(e))
