@@ -12,7 +12,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 button = [
        [
             InlineKeyboardButton(
-                text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaXbot?startgroup=true",
+                text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/hiroMV1_bot?startgroup=true",
             )
         ]
 ]
@@ -24,13 +24,13 @@ button = [
 @app.on_message(filters.command("animelogo"))
 async def logo(app, msg: Message):
     if len(msg.command) == 1:
-       return await msg.reply_text("✦ ᴜsᴀɢᴇ ➥ /animelogo Nykaa")
+       return await msg.reply_text("✦ ᴜsᴀɢᴇ ➥ /animelogo mogen")
     logo_name = msg.text.split(" ", 1)[1]
     API = f"https://api.sdbots.tech/anime-logo?name={logo_name}"
     req = requests.get(API).url
     await msg.reply_photo(
         photo=f"{req}",
-        caption=f"❖ ᴀɴɪᴍᴇ ʟᴏɢᴏ ʙʏ ➥ [๛ɴ ʏ ᴋ ᴀ ᴀ ࿐](https://t.me/the_friendz)",
+        caption=f"❖ ᴀɴɪᴍᴇ ʟᴏɢᴏ ʙʏ ➥ [ @hiro_v1 ࿐](https://t.me/mogenart)",
         reply_markup=InlineKeyboardMarkup(button),
     )
 
