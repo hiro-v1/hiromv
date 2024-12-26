@@ -7,7 +7,7 @@ from config import BOT_USERNAME
 
 NYKAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/nykaaxbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/hiroMV1_bot?startgroup=true"),
     ],
 ]
 
